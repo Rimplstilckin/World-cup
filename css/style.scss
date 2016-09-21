@@ -7,16 +7,20 @@ body {
 
 header{
   background-color: green;
-      height: 10rem;
-}
+  overflow: hidden;
+  &:hover{
+    background-color: red;
+  }}
 
 .container {
-    background-color: blue;
+    background-color: #ccc;
     height: 30rem;
 }
 
 #footer{
   background-color: gray;
   height: 15rem;
-  border: .2rem;
-}
+  border: black dashed .2rem;
+  &:hover{
+    height:14rem;
+  }}
