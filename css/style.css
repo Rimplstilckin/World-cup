@@ -6,19 +6,32 @@ body {
 
 header {
   background-color: green;
-  overflow: hidden; }
+  overflow: hidden;
+  border-top: dashed white 0.2rem; }
   header:hover {
     background-color: red; }
 
 .container {
   background-color: #ccc;
-  height: 30rem; }
+  height: 30rem;
+  border: 0 3px dashed red; }
+
+.prvi {
+  background-color: aqua;
+  height: 25rem;
+  width: 33.3%;
+  margin: 2.5rem 0;
+  float: left; }
+  .prvi:hover {
+    background-color: white; }
+  .prvi:hover .container {
+    background-color: red; }
 
 #footer {
   background-color: gray;
   height: 15rem;
-  border: black dashed .2rem; }
+  border: black dashed 0.2rem; }
   #footer:hover {
-    height: 14rem; }
+    background-color: yellow; }
 
 /*# sourceMappingURL=style.css.map */
