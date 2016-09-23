@@ -23,9 +23,7 @@ header {
   margin: 2.5rem 0;
   float: left; }
   .prvi:hover {
-    background-color: white; }
-  .prvi:hover .container {
-    background-color: red; }
+    background-color: aqua; }
 
 #footer {
   background-color: gray;
