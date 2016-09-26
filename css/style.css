@@ -28,8 +28,11 @@ header {
 #footer {
   background-color: white;
   height: 15rem;
-  border: black dashed 0.2rem; }
+  border: black dashed 0.2rem;
+  text-align: center;
+  font-size: 2rem; }
   #footer:hover {
-    background-color: black; }
+    background-color: black;
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */
