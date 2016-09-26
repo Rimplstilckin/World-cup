@@ -5,31 +5,31 @@ body {
   background-color: #fcfcfc; }
 
 header {
-  background-color: green;
+  background-color: red;
   overflow: hidden;
   border-top: dashed white 0.2rem; }
   header:hover {
-    background-color: red; }
+    background-color: white; }
 
 .container {
-  background-color: #ccc;
+  background-color: blue;
   height: 30rem;
-  border: 0 3px dashed red; }
+  border: 0 3px dashed gray; }
 
-.prvi {
+.one {
   background-color: aqua;
   height: 25rem;
   width: 33.3%;
   margin: 2.5rem 0;
   float: left; }
-  .prvi:hover {
-    background-color: aqua; }
+  .one:hover {
+    background-color: silver; }
 
 #footer {
-  background-color: gray;
+  background-color: white;
   height: 15rem;
   border: black dashed 0.2rem; }
   #footer:hover {
-    background-color: yellow; }
+    background-color: black; }
 
 /*# sourceMappingURL=style.css.map */
