@@ -3566,9 +3566,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.42426407"
-     inkscape:cx="407.57919"
-     inkscape:cy="520.19287"
+     inkscape:zoom="0.98996236"
+     inkscape:cx="793.96958"
+     inkscape:cy="493.98606"
      inkscape:current-layer="layer2"
      inkscape:document-units="px"
      showgrid="false"
@@ -3833,7 +3833,7 @@
      inkscape:label="Logo">
     <g
        id="g48775"
-       transform="translate(662.29989,-27.545903)">
+       transform="translate(-598.7072,97.376295)">
       <path
          style="fill:#1d1d1b"
          inkscape:connector-curvature="0"
@@ -5592,7 +5592,7 @@
         <polygon
            style="fill:url(#SVGID_80_)"
            id="polygon661"
-           points="164.456,190.921 164.451,190.922 164.461,190.921 " />
+           points="164.451,190.922 164.461,190.921 164.456,190.921 " />
         <radialGradient
            gradientUnits="userSpaceOnUse"
            gradientTransform="matrix(10.561,0,0,-10.561,358.796,11407.271)"
@@ -10899,7 +10899,7 @@
         <polygon
            style="fill:url(#SVGID_379_)"
            id="polygon2536"
-           points="102.957,51.851 102.917,47.595 107.173,47.554 107.213,51.81 "
+           points="102.917,47.595 107.173,47.554 107.213,51.81 102.957,51.851 "
            clip-path="url(#SVGID_378_)" />
       </g>
       <path
@@ -10973,7 +10973,7 @@
         <polygon
            style="fill:url(#SVGID_384_)"
            id="polygon2579"
-           points="149.033,27.831 148.436,24.608 151.665,24.009 152.262,27.233 "
+           points="148.436,24.608 151.665,24.009 152.262,27.233 149.033,27.831 "
            clip-path="url(#SVGID_383_)" />
       </g>
       <g
@@ -11037,7 +11037,7 @@
         <polygon
            style="fill:url(#SVGID_387_)"
            id="polygon2604"
-           points="150.55,28.134 148.47,35.281 156.65,37.663 158.731,30.516 "
+           points="148.47,35.281 156.65,37.663 158.731,30.516 150.55,28.134 "
            clip-path="url(#SVGID_386_)" />
       </g>
       <path

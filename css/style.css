@@ -1,34 +1,39 @@
-html {
-  font-size: 10px; }
+/*
+Error: The line was indented 2 levels deeper than the previous line.
+        on line 36 of style.sass
 
-body {
-  background-image: url(../images/Background1.jpg); }
+31:   width: 33.3%
+32:   margin: 2.5rem 0
+33:   float: left
+34:   &:hover
+35: <<<<<<< HEAD
+36:     background-color: aqua
+37: 
+38: =======
+39:     background-color: silver
+40: >>>>>>> testiranje
+41: #footer
 
-header {
-  background-color: green;
-  overflow: hidden;
-  border-top: dashed white 0.2rem; }
-  header:hover {
-    background-color: red; }
-
-.container {
-  height: 30rem;
-  border: 0 3px dashed red; }
-
-.one {
-  background-color: #cecece;
-  height: 25rem;
-  width: 33.3%;
-  margin: 2.5rem 0;
-  float: left; }
-  .one:hover {
-    background-color: aqua; }
-
-#footer {
-  background-color: gray;
-  height: 15rem;
-  border: black dashed 0.2rem; }
-  #footer:hover {
-    background-color: yellow; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+style.sass:36
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:520:in `tree'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:409:in `_to_tree'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `call'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: The line was indented 2 levels deeper than the previous line.\A         on line 36 of style.sass\A \A 31:   width: 33.3%\A 32:   margin: 2.5rem 0\A 33:   float: left\A 34:   &:hover\A 35: <<<<<<< HEAD\A 36:     background-color: aqua\A 37: \A 38: =======\A 39:     background-color: silver\A 40: >>>>>>> testiranje\A 41: #footer"; }
