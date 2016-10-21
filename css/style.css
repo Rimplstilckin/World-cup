@@ -2,7 +2,7 @@ html {
   font-size: 10px; }
 
 body {
-  background-image: url(../images/Background1.jpg); }
+  background-image: url(../images/Background.jpg); }
 
 header {
   background-color: red;
@@ -17,7 +17,7 @@ header {
   border: 0 3px dashed gray; }
 
 .one {
-  background-color: aqua;
+  background-color: silver;
   height: 25rem;
   width: 33.3%;
   margin: 2.5rem 0;
