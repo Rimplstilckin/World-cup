@@ -4,12 +4,17 @@ html {
 body {
   background-image: url(../images/Background.jpg); }
 
+a {
+  display: inline-block; }
+
+img {
+  vertical-align: bottom;
+  border: 0; }
+
 header {
-  background-color: red;
   overflow: hidden;
-  border-top: dashed white 0.2rem; }
-  header:hover {
-    background-color: white; }
+  padding: 2.5rem;
+  background-color: white; }
 
 .container {
   background-color: blue;
